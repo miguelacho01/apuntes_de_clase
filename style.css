@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    margin: auto;
+    border: solid 1px;
+    height: 300px;
+    width: 25%;
+    margin-top: 50px;
+    display: grid;
+    gap: 5px;
+    color: black;
+}
+
+#ingresar:hover{
+    background-color: hsla(120, 100%, 25%, 0.282);
+}
+
