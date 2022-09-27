@@ -13,17 +13,26 @@
 
     <form action="#" class="container">
         <div class="content">
-        <label for="username" aria-placeholder="registro" >Usuario</label>
-        <input type="text" id="username">
-        
+            <div class="usuario">
+                <label for="username" aria-placeholder="registro"> Usuario <br> </label>
+                <input type="text" id="username">
+            </div>
 
-        <label for="password">contraseña</label>
-        <input type="password" id="password">
+            <div class="contrasena">
+                <label for="password">Contraseña <br></label>
+                <input type="password" id="password">
+            </div>
 
-        <div id="mensaje">La contraseña no cumple</div>
-        <button id="ingresar">ingresar</button>
-        <input type="checkbox" id="checkbox"><label for="checkbox">Recuerdame</label>
-    </div>
+            <div id="mensaje"></div>
+
+            <div class="ingreso">
+                <button id="ingresar">ingresar</button>
+            </div>
+            <div>
+                <input type="checkbox" id="checkbox"><label for="checkbox"><br> Recuerdame</label>
+            </div>
+            
+        </div>
     </form>
 
     <script src="./formulario_y_eventos.js"></script>

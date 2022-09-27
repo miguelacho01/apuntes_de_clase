@@ -1,21 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.content{
-    margin: auto;
-    border: solid 1px;
-    height: 300px;
-    width: 25%;
-    margin-top: 50px;
-    display: grid;
-    gap: 5px;
-    color: black;
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
 }
 
-#ingresar:hover{
+.content {
+    border-radius: 50px;
+    color: white;
+    height: 300px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: rgb(34, 34, 126);
+    gap: 15px;
+    align-items: center;   
+}
+
+#ingresar:hover {
     background-color: hsla(120, 100%, 25%, 0.282);
 }
 
+#ingresar {
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+input {
+    height: 30px;
+}
