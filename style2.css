@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+    background-color:rgba(128, 128, 128, 0.466);
+  }
 
   .contenedor{
     border: solid 1px;
@@ -13,23 +16,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-   
-    
   }
+  
 .content{
     display: flex;
+    gap: 10px;
+    margin: 10px;
 }
-  ul{
+.imagen{
+  margin-top: 50px;
+}
+  ul {
     display: flex;
     text-decoration: none;
     list-style: none;
     
   }
 
-  .tarjetas{
-    display: flex;
+  p{
+    margin-right:15px ;
   }
+
+a{
+  text-decoration: none;
+  margin: 15px;
+  color: coral;
+}
+
   img{
     width: 400px;
     height: 300px;
@@ -42,7 +55,7 @@
 
 .footer{
     text-align: center;
-    height: 100px;
+    height: 80px;
     background-color: black;
     color: white;
 
@@ -66,3 +79,35 @@
     padding: 50px;
     align-items: center;
 }
+h2{
+  text-align: center;
+}
+.pedidos{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 10px;
+}
+.tarjetas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+select{
+  width: 150px;
+  
+}
+button{
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+}
+.lista{
+ display: grid;
+ gap: 10px;
+ margin-right:50px;
+ align-items: center;
+ justify-items: center;
+}
+
